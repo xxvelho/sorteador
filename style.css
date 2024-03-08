@@ -247,8 +247,15 @@ body {
   }
   .bnt-cima{
     display: flex;
-    gap: 40px;
+    gap: 5px;
     flex-direction: row;
   }
 }
 
+@media (max-width: 500px) {
+  .bnt-cima{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+}
