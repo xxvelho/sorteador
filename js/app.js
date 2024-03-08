@@ -48,6 +48,6 @@ function sortear2(){
     embaralhar(listaAmigos);
     document.querySelector('.prizeDraw__container').innerHTML = '';
     for (let i=0; i<listaAmigos.length; i++) {
-        document.querySelector('.prizeDraw__container').innerHTML += `<p>${listaAmigos[i]}</p>`; 
+        document.querySelector('.prizeDraw__container').innerHTML += `<p>${i+1}º ${listaAmigos[i]}</p>`; 
     }
 }   
