@@ -205,7 +205,13 @@ body {
   color: #1875e8;
 }
 
-@media (max-width: 720px) {
+.bnt-cima{
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+}
+
+@media (max-width: 900px) {
   .content__corner-rectangle {
     display: none;
   }
@@ -224,7 +230,7 @@ body {
     align-items: center;
   }
   .form__input{
-    width: 160%;
+    width: 120%;
   }
   .sei-la{
     display: flex;
@@ -234,7 +240,15 @@ body {
   .friends__container{
     width: 170%;
     height: 50px;
-
+  }
+  .form__buttons{
+    display: flex;
+    flex-direction: column;
+  }
+  .bnt-cima{
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
   }
 }
 
